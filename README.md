@@ -2,7 +2,7 @@
 
 This program creates a new data set from the existing and well known iris data set.
 
-New data is made by finding mean and standandard deviation of all attributes (sepal length, sepal width, petal length and petal width) over all species (setosa, versicolor and virginica) and generating 10^6 new instances using a normal distribution with those parameters.
+New data is made by finding mean and standandard deviation of all attributes (sepal length, sepal width, petal length and petal width) over all species (setosa, versicolor and virginica) and generating 10^6 new instances for every species using a normal distribution with those parameters. Any rows that have a negative value generated are not saved.
 
 This data is then used to train the k nearest neighbors algorithm with 9 neighbours.
 
