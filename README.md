@@ -12,4 +12,8 @@ Finally, the program gives us the accuracy and the comparison between test data 
 
 Warning: This program generates a large (over 200MB) .csv file that stores the data, and that due to its size could'nt be uploaded here.
 
+Update:
 
+The new version creates the fake iris data set from one half of the original data, taking into consideration sepal length / petal length and sepal width / petal width ratio.
+
+The model is the same and it is tested on the whole original iris data set. 
