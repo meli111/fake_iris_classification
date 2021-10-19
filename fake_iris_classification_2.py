@@ -52,7 +52,6 @@ except:
 
     setosas = setosas.T  # transponse
 
-    # print(set1)
     sep_len_vers = np.random.normal(versicolor[0][0], versicolor[0][1], 10 ** 6)
     sep_wid_vers = np.random.normal(versicolor[1][0], versicolor[1][1], 10 ** 6)
 
@@ -75,8 +74,6 @@ except:
 
     new_iris = [setosas, versicolors, virginicas]
     new_iris = pd.concat(new_iris, ignore_index=True)
-
-    # print(set4)
 
     a1 = [0 for i in range(10 ** 6)]
     a2 = [1 for i in range(10 ** 6)]
